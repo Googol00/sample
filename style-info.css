@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: "Avenir Next";
+}
+a {
+  text-decoration: none;
+}
+.info-title {
+  height: 400px;
+  padding: 100px 0 250px 0;
+  background-size: cover;
+  text-align: center;
+  border-bottom: 1px solid rgb(75, 75, 75);
+  margin: 0;
+}
+h1 {
+  margin: 30px 0;
+  font-size: 54px;
+  color: rgba(11, 6, 49, 0.7);
+}
+p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 24px;
+
+}
+
+footer {
+  text-align: center;
+  padding: 50px 30px 100px;
+  margin: 0;
+}
+.btn {
+  display: inline-flex;
+  background-color: rgba(128, 128, 128, 0.5);
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  height: 54px;
+  padding: 0 90px;
+  border-radius: 27px;
+}
+
+.btn.sub:hover {
+  background-color: rgba(128, 128, 128, 0.7);
+}
