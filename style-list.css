@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Avenir Next";
+}
+.btn {
+  color: white;
+  font-size: 20px;
+  display: block;
+  padding: 15px 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 250px;
+  margin: auto;
+  border-radius: 28px;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.contents-list {
+  margin: 0;
+  padding: 0;
+}
+.contents-list li {
+  border-bottom: 1.5px solid rgba(77, 77, 77, 0.6);
+  padding: 15px 0;
+  margin: 0;
+}
+.contents-list ul {
+  list-style: none;
+  width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.contents-list h2 {
+  font-size: 35px;
+  font-weight: normal;
+}
+.contents-list p {
+  font-size: 20px;
+}
+
+.list-title {
+  height: 1100px;
+  padding: 80px 0px 100px 0px;
+  background-size: cover;
+  text-align: center;
+  border-bottom: 1.5px solid rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.39);
+}
+.list-title h1{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 70px;
+  padding: 15px 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 50px;
+  font-weight: normal;
+  opacity: 0.6;
+}
+
