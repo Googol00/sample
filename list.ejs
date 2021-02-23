@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Investment Info.</title>
+    <link rel="stylesheet" href="/css/style-list.css">
+    <link rel="stylesheet" href="/css/style-header.css">
+    <script src="/send_url.js"></script> 
+  </head>
+  <body>
+    <%- include('header'); %>
+    <div class="list-title" style="background: url(/images/news-1.jpg)">
+      <h1>記事一覧</h1>
+      <div class="contents-list">
+        <ul>
+          <% article.forEach((article) => { %>
+            <li>
+              <h2><%= article.title %></h2>
+              <p><%= article.summary %></p>
+              <a href="/article/<%= article.id %>" class="btn">続きを読む</a>
+            </li>
+          <% }); %>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
