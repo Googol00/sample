@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Avenir Next";
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.8);
+  position: fixed;
+}
+.header-left {
+  float: left;
+  margin-top: 20px;
+}
+.header h3 {
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  margin: 5px;
+}
+.header-right {
+  float: right;
+  margin-right: 25px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.header-right:hover {
+  background-color: rgba(200, 200, 200, 0.8);
+}
+.header-right a {
+  line-height: 80px;
+  padding: 0 30px;
+  display: block;
+  color: white;
+}
